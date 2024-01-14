@@ -2,8 +2,9 @@
 
 void gameOver(sf::RenderWindow* window)
 {
+	// loading font from default windows font location
 	sf::Font arial;
-	arial.loadFromFile(Arial);
+	arial.loadFromFile("C:/Windows/Fonts/Arial.ttf");
 
 	sf::Text GameOver;
 	GameOver.setString("Game Over");
