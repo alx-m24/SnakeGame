@@ -143,6 +143,9 @@
     <ClInclude Include="src\Headers\MainLoop.hpp" />
     <ClInclude Include="src\Headers\Snake.hpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
