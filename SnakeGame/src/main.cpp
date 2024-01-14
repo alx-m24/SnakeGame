@@ -5,6 +5,7 @@
 // My headers
 #include "Headers/MainLoop.hpp"
 #include "Headers/AppleSystem.hpp"
+#include "Headers/Snake.hpp"
 
 int main() {
 	// window settings
