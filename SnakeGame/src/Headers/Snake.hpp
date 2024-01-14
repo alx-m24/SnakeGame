@@ -19,7 +19,6 @@ public:
 private:
 	sf::RenderWindow* window;
 	// direction change (position, velocity)
-	//std::map<std::pair<float, float>, std::pair<float, float>> directionChanges;
 	std::map<std::pair<float, float>, std::pair<float, float>> directionChanges;
 	void wallCollision();
 	void BodyCollision(Body* curr);

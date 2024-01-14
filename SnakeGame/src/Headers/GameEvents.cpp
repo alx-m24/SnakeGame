@@ -19,7 +19,7 @@ void gameOver(sf::RenderWindow* window)
 	sf::Clock myClock;
 	myClock.restart();
 
-	while (myClock.getElapsedTime().asSeconds() < 2.5);
+	while (myClock.getElapsedTime().asSeconds() < 1.5);
 
 	window->close();
 }

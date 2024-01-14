@@ -76,10 +76,8 @@ void Snake::update()
 	}
 }
 
-void Snake::wallCollision()
-{
-	sf::Vector2f currPos = body[0]->getPosition();
-	if (currPos.x <= 0 || currPos.y <= 0 || currPos.x >= window->getSize().x - 15 || currPos.y >= window->getSize().y - 15)
+void Snake::wallCollision() {
+	if (position.x <= 0 || position.y <= 0 || position.x >= window->getSize().x - 15 || position.y >= window->getSize().y - 15)
 	{
 		gameOver(window);
 	}
@@ -88,10 +86,8 @@ void Snake::wallCollision()
 void Snake::BodyCollision(Body* curr)
 {
 	// collision is true if sum of both radius is greater than disance between objects
-	Body* main = body[0];
 	sf::Vector2f currPos = curr->getPosition();
-	sf::Vector2f mainPos = main->getPosition();
-	if (sqrt(pow(mainPos.x - currPos.x, 2) + pow(mainPos.y - currPos.y, 2)) < (main->getRadius() + curr->getRadius() - 20))
+	if (sqrt(pow(position.x - currPos.x, 2) + pow(position.y - currPos.y, 2)) < (body[0]->getRadius() + body[0]->getRadius() - 20))
 	{
 		gameOver(window);
 	}
