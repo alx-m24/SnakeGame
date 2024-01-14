@@ -25,7 +25,7 @@ This build is capable of handling around <b>5000</b> apples and body parts(of th
 
 If for any reason you want to play the game this crapy remake of a game that has already been coded thousands of time, here is a simple guide of how to build it: 
 <ol>
-  <li>Copy only the <a hred="https://github.com/alx-m24/SnakeGame/tree/master/Release">Relase Folder</a>to any of your local folders.</li>
+  <li>Copy only the <a href="https://github.com/alx-m24/SnakeGame/tree/master/Release">Relase Folder</a> to any of your local folders.</li>
   <li>Run the SnakeGame.exe file. (Don't worry, there are no threats to running it. If you still have doubts, you could you use the other method and build the project by yourseft.)</li>
 </ol>
 
