@@ -17,7 +17,7 @@ The project was started on the 5th January 2024 and only took 9 days to complete
 However, I know that there are surely tons of improvements that can be made to not only make the game more appealing but also to increase the overall performance and readability of the code.
 
 ## Performance
-This build is capable of handling around <b>5000</b> apples and body parts(of the snake) at around <b>60 FPS</b>
+This build is capable of handling around <b>5000</b> apples and body parts(of the snake) at around <b>60 FPS</b> on my hardware. (An HP laptop with an Intel Core i3 Processor).
 
 <b>Note:</b> I am aware that it is not a lot but it is not possible for the player to reach this amount of body parts without cheating.
 
