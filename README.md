@@ -5,7 +5,7 @@
 
 <p align="center">
   <b>
-    A basic remake of the classic SnakeGame made using C++ and <a href="https://www.sfml-dev.org">SFML</a>.
+     A basic remake of the classic SnakeGame made using C++ and <a href="https://www.sfml-dev.org"><img src = "https://www.sfml-dev.org/images/logo.png" width="77.77777777777778" height="25"/></a>
   </b>
 </p>
 
